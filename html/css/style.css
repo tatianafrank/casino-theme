@@ -57,7 +57,7 @@
 /*	01) Base
 /*------------------------------------------------------------------*/
 :root{
-	--mc1: #01a3f4;
+	--mc1: #35654d;
 	--mc2: #feeb1a;
 	--hc: #fff;
 	--bc: #fff;
@@ -145,10 +145,11 @@ body{
 	color: var(--bc);
 	position: relative;
 	word-break: break-word;
-	background: rgb(2,74,221);
+	background: #35654d;
+	/* background: rgb(2,74,221);
 	background: -moz-linear-gradient(90deg, rgba(2,74,221,1) 0%, rgba(1,163,244,1) 50%, rgba(2,74,221,1) 100%);
 	background: -webkit-linear-gradient(90deg, rgba(2,74,221,1) 0%, rgba(1,163,244,1) 50%, rgba(2,74,221,1) 100%);
-	background: linear-gradient(90deg, rgba(2,74,221,1) 0%, rgba(1,163,244,1) 50%, rgba(2,74,221,1) 100%);
+	background: linear-gradient(90deg, rgba(2,74,221,1) 0%, rgba(1,163,244,1) 50%, rgba(2,74,221,1) 100%); */
 }
 body,
 html{
@@ -345,7 +346,7 @@ a.full_link{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	background: url('../img/food-bg.png');
+	background: url('../img/poker-bg.png');
 }
 
 /*------------------------------------------------------------------*/
@@ -363,7 +364,7 @@ a.full_link{
 }
 .header.active{
 	padding: 5px 0;
-	background: pink;
+	background: #35654d;
 	transform: translateY(-102%);
 }
 .header_in{
@@ -1988,7 +1989,7 @@ a.metaverse_fn_videobutton:hover .fn__svg,
 #footer{
 	padding: 34px 0 32px;
 	border-top: 1px solid rgba(255,255,255,.08);
-	background-color: pink;
+	background-color: #35654d;
 }
 .footer{
 	display: -webkit-flex;
@@ -2542,7 +2543,7 @@ a.metaverse_fn_videobutton:hover .fn__svg,
 	column-gap: 10px;
 }
 .metaverse_fn_mobnav .mob_top{
-	background: pink;
+	background: #35654d;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -2554,7 +2555,7 @@ a.metaverse_fn_videobutton:hover .fn__svg,
 }
 .metaverse_fn_mobnav .mob_bot{
 	display: none;
-	background: pink;
+	background: #35654d;
     padding: 21px 20px;
     overflow: hidden;
 	border-bottom: 1px solid rgba(255,255,255,.3);
